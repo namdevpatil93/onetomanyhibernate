@@ -12,10 +12,9 @@
 
 		<property name="hibernate.current_session_context_class">thread</property>
 		<property name="hibernate.show_sql">true</property>
-		<property name="hibernate.hbm2ddl.auto">update</property>
-	
 		 <mapping class="hibernate.model.Items"></mapping>  
 		 <mapping class="hibernate.model.Cart"></mapping>  
+		 
 	
 	
 	</session-factory>
